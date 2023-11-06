@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+     <title>Zayn Shop</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">Zayn Shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/index.html#scroll-up">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/productapp.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact</a>
+          </li>
+        </ul>
+        <!--cart icon -->
+        <i class="fa-solid fa-cart-shopping fa-lg" id="cart-icon" style="color: #fff; margin: 20px;"></i>
+        <!-- cart -->
+        <div class="cart">
+          <h2 class="cart-title">Your Carts</h2>
+          <!-- content -->
+          <div class="cart-content">
+            <img src="/img/Logitect G pro keyboard - Tenkeyless Portable Gaming.png" alt="" class="cart-img">
+            <div class="detail-box">
+                <div class="cart-product-title">Logitect G pro keyboard</div>
+                <div class="cart-price">$99</div>
+              <input type="number" value="1" class="cart-quantity">
+        </div>            
+            <!-- remove cart -->
+            <i class="fa-solid fa-trash cart-remove"></i>
+          </div>
+            <!-- Total -->
+            <div class="total-title">Total</div>
+            <div class="total-price">$99</div>
+            <!-- buy button -->
+            <button type="button" class="btn-buy">Buy Now</button>
+            </div>
+            <!-- cart close -->
+            <i class="fa-solid fa-x" id="close-cart"></i>
+          
+        </div>
+
+        <form class="d-flex">
+         <a href="http://127.0.0.1:5500/login.html"><button class="btn text-bg-danger" type="button">Login</button></a>         
+        </form>
+      </div>
+    </div>
+  </nav> 
+  <br>
+
+  <nav class="navbarproducts">
+    <ul class="menu" id="#scroll-up">
+      <li><a href="http://127.0.0.1:5500/msi.html" class="active"><img src="/img/msi logo.png" alt="" style="height: 50px;"></a></li>
+      <li><a href="http://127.0.0.1:5500/asus.html"><img src="/img/asus-rog-logo-vector-4.svg" alt="" style="height: 50px;"></a></li>
+      <li><a href="http://127.0.0.1:5500/razer.html"><img src="/img/Logo_Razer_2017.png" alt="" style="height: 50px;"></a></li>
+      <li><a href="http://127.0.0.1:5500/dell.html"><img src="/img/Dell_logo_2016.svg.png" alt="" style="height: 50px;"></a></li>
+      <li><a href="http://127.0.0.1:5500/logitech.html"><img src="/img/Logitech-logo.png" alt="" style="height: 50px;"></a></li>
+    </ul> 
+  </nav>
+
+    
+  <section class="content" >
+      <h1>Welcome to Zayn Shop</h1>
+      <p>We have sell Computer hardware and Electronics Accessaries</p>
+      <a href="http://127.0.0.1:5500/productapp.html"><button>Shop Now</button></a>
+      <?xml version="1.0" ?><svg class="feather feather-chevrons-down" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg>
+    </section>
+   
+
+  
+    <h1 class="pheading">Our Latest Products</h1>
+     
+    <section class="sec">
+      <div class="products">
+        <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/MSI_NB_GE76_Raider_1.png" alt="" class="product-img"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">MSI GE76 Raider</div>
+          <div class="box">
+          <div class="price">$2499</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/Blade_Stealth-Late-2019_FHD_Render_1_980x500.webp" alt="" class="product-img" style="width: 500px; margin-left: -50px;"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">Blade Stealth-Late 2019</div>
+          <div class="box">
+          <div class="price">$1499</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/rog.png" alt="" class="product-img"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">Asus ROG G27 2023</div>
+          <div class="box">
+          <div class="price">$2499</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->  
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/titan.png" alt="" class="product-img" style="width: 350px; margin-left:30px;"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">MSI titan</div>
+          <div class="box">
+          <div class="price">$3499</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+        <!-- card end -->                    
+      </div>
+    </section>
+    <section class="sec">
+      <div class="products">
+        <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/1024.png" alt="" class="product-img" style="margin-top: 40px;"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">MSI PULSE GL76</div>
+          <div class="box">
+          <div class="price">$1499</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/10246630.webp" alt="" class="product-img" style="width: 360px; height: 300px;"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">MSI Katana GF76</div>
+          <div class="box">
+          <div class="price">$1199</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/Dell G7 15.6 Gaming Laptop.jpg" class="product-img"alt="" style="margin-top: 40px;"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">Dell G7 15.6'</div>
+          <div class="box">
+          <div class="price">$1699</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/ROG Swift OLED PG27AQDM.png" alt="" class="product-img"style="height: 300px; width: 450px; margin-left: -30px; margin-top: -10px;"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">ROG Swift OLED</div>
+          <div class="box">
+          <div class="price">$499</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->                      
+      </div>
+    </section>
+    
+    <section class="sec">
+      <div class="products">
+        <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/ad812e86db8448712ba9a2e0621950e6.webp" alt="" class="product-img"style="height: 260px; width: 360px; margin-left: 15px;"></div>
+          <div class="desc">Monitor</div>
+          <div class="product-title">MSI G27 Series</div>
+          <div class="box">
+          <div class="price">$249</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/Razer Ornata V3 X Gaming Keyboard.jpg" alt="" class="product-img"style="height: 220px; width: 350px; margin-left: 15px; margin-top: 40px;"></div>
+          <div class="desc">Keyboard</div>
+          <div class="product-title">Razer Ornata V3 X Gaming Keyboard</div>
+          <div class="box">
+          <div class="price">$120</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/Logitect G pro keyboard - Tenkeyless Portable Gaming.png" alt=""class="product-img" ></div>
+          <div class="desc">Keyboard</div>
+          <div class="product-title">Logitect G pro keyboard</div>
+          <div class="box">
+          <div class="price">$99</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->  
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/Logitech G635 Gaming Headset.jpg"class="product-img"></div>
+          <div class="desc">Laptop</div>
+          <div class="product-title">Logitech G635 Gaming Headset</div>
+          <div class="box">
+          <div class="price">$199</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->                    
+      </div>
+    </section>
+    <section class="sec">
+      <div class="products">
+        <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/Razer Basilisk V3 Wired Optical Gaming Mouse.jpg" alt=""class="product-img" style="width: 260px; margin-left: 50px;"></div>
+          <div class="desc">Gamming Mouse</div>
+          <div class="product-title">Razer Basilisk V3 Wired Optical Gaming Mouse</div>
+          <div class="box">
+          <div class="price">$49</div>
+          <button class="add-cart" >Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="product-img"><img src="/img/DualSense wireless controller PS5.webp" alt=""class="product-img"></div>
+          <div class="desc">Controller</div>
+          <div class="product-title">DualSense wireless controller PS5</div>
+          <div class="box">
+          <div class="price">$90</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="img"><img src="/img/ASUS ROG Strix NVIDIA GeForce RTX 3080 V2.jpg" alt=""class="product-img"></div>
+          <div class="desc">Graphics Card</div>
+          <div class="product-title">ASUS ROG Strix NVIDIA GeForce RTX 3080 V2</div>
+          <div class="box">
+          <div class="price">$499</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->
+         <!-- card start -->
+        <div class="card">
+          <div class="img"><img src="/img/MSI NVIDIA GeForce RTX 4060 GAMING X 8G 8GB OC GDDR6 Graphics Card.jpg" alt=""class="product-img"></div>
+          <div class="desc">Graphics Card</div>
+          <div class="product-title">MSI NVIDIA GeForce RTX 4060 GAMING X 8G</div>
+          <div class="box">
+          <div class="price">$599</div>
+          <button class="add-cart">Buy now</button>
+          </div>
+        </div>
+         <!-- card end -->                      
+      </div>
+    </section>
+
+
+    <div>  
+      <a href="#">
+        <button class="back-home">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </a>  
+    </div>
+      
+        
+   
+    <footer>
+      <div id="contact-us">
+        <h1>Contact Us</h1>
+      <br>
+      <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+        <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"></stop><stop offset="1" stop-color="#007ad9"></stop></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"></path>
+        </svg></a>
+      <a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+        <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+        </svg></a>
+      <a href="https://t.me/naryn_sreng"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+        <path fill="#29b6f6" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path><path fill="#fff" d="M33.95,15l-3.746,19.126c0,0-0.161,0.874-1.245,0.874c-0.576,0-0.873-0.274-0.873-0.274l-8.114-6.733 l-3.97-2.001l-5.095-1.355c0,0-0.907-0.262-0.907-1.012c0-0.625,0.933-0.923,0.933-0.923l21.316-8.468 c-0.001-0.001,0.651-0.235,1.126-0.234C33.667,14,34,14.125,34,14.5C34,14.75,33.95,15,33.95,15z"></path><path fill="#b0bec5" d="M23,30.505l-3.426,3.374c0,0-0.149,0.115-0.348,0.12c-0.069,0.002-0.143-0.009-0.219-0.043 l0.964-5.965L23,30.505z"></path><path fill="#cfd8dc" d="M29.897,18.196c-0.169-0.22-0.481-0.26-0.701-0.093L16,26c0,0,2.106,5.892,2.427,6.912 c0.322,1.021,0.58,1.045,0.58,1.045l0.964-5.965l9.832-9.096C30.023,18.729,30.064,18.416,29.897,18.196z"></path>
+        </svg></a>
+        <h2>Location: Phnom Penh, Cambodia</h2>
+      <h2>Tel: 085 623 885</h2>
+      <h2>Email: chizzy1331@gmailcom</h2>
+        <p>@Copyright zaynshop2023</p>
+        <p>Developed by: Sreng Naryn</p>
+      </div>
+           
+    </footer>
+    <script src="/js/index.js"></script>
+</body>
+</html>
